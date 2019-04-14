@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "save-list-as-template-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/saveListAsTemplate/SaveListAsTemplateCommandSet.js",
+          "manifest": "./src/extensions/saveListAsTemplate/SaveListAsTemplateCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SaveListAsTemplateCommandSetStrings": "lib/extensions/saveListAsTemplate/loc/{locale}.js"
+  }
+}

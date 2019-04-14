@@ -1,0 +1,25 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.saveListAsSiteScript {
+    .row {
+        @include ms-Grid-row;
+    }
+    
+    .column {
+        @include ms-Grid-col;
+        @include ms-sm12;
+    }
+
+    .halfColumn {
+        @include ms-Grid-col;
+        @include ms-sm6;
+    }
+
+    .success {
+        color: $ms-color-green;
+    }
+
+    .error {
+        color: $ms-color-red;
+    }
+}
